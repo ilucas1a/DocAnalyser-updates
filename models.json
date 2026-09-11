@@ -1,0 +1,45 @@
+{
+    "_comment": "Curated model lists for DocAnalyser. Updated by developer, pulled by app on startup via pricing_updater.py. Three models per provider: premium (most capable), balanced (everyday), fast (fast & cheap). xAI and DeepSeek have only two tiers. Ordered premium → balanced → fast within each provider.",
+    "_updated": "2026-08-15",
+    "providers": {
+        "OpenAI (ChatGPT)": [
+            "gpt-5.2",
+            "gpt-5.1",
+            "gpt-5-mini"
+        ],
+        "Anthropic (Claude)": [
+            "claude-opus-4-7",
+            "claude-sonnet-4-6",
+            "claude-haiku-4-5-20251001"
+        ],
+        "Google (Gemini)": [
+            "gemini-3.1-pro-preview",
+            "gemini-2.5-flash",
+            "gemini-2.5-flash-lite"
+        ],
+        "xAI (Grok)": [
+            "grok-4",
+            "grok-4-fast"
+        ],
+        "DeepSeek": [
+            "deepseek-v4-pro",
+            "deepseek-v4-flash"
+        ],
+        "Moonshot (Kimi)": [
+            "kimi-k3",
+            "kimi-k2.6"
+        ],
+        "Ollama (Local)": [
+            "(Run Local AI Setup to download models)"
+        ],
+        "Lumo (Proton)": [
+            "(Web interface only — use Run → Via Web)"
+        ],
+        "Duck.ai": [
+            "(Web interface only — use Run → Via Web)"
+        ],
+        "Mistral Le Chat": [
+            "(Web interface only — use Run → Via Web)"
+        ]
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "_comment": "Model Guide data for DocAnalyser. Curated by developer, pulled by app on startup. Each model carries a 'tier' field: 'premium' (most capable), 'balanced' (everyday workhorse), or 'fast' (fast & cheap). Providers may have fewer than three tiers filled where no suitable model exists.",
+    "_updated": "2026-04-27",
+    "OpenAI (ChatGPT)": {
+        "_description": "OpenAI offers a range of models balancing speed, capability and cost.",
+        "_all_vision": true,
+        "models": {
+            "gpt-5.2": {
+                "name": "gpt-5.2",
+                "tier": "premium",
+                "speed": "⚡⚡⚡",
+                "cost": "💰💰💰",
+                "quality": "⭐⭐⭐⭐⭐",
+                "best_for": "Deep analysis of transcripts, nuanced summarisation, complex reasoning tasks",
+                "recommended": false,
+                "vision": true
+            },
+            "gpt-5.1": {
+                "name": "gpt-5.1",
+                "tier": "balanced",
+                "speed": "⚡⚡⚡",
+                "cost": "💰💰",
+                "quality": "⭐⭐⭐⭐⭐",
+                "best_for": "Everyday document analysis and summarisation — a capable all-rounder",
+                "recommended": true,
+                "vision": true
+            },
+            "gpt-5-mini": {
+                "name": "gpt-5-mini",
+                "tier": "fast",
+                "speed": "⚡⚡⚡⚡⚡",
+                "cost": "💰",
+                "quality": "⭐⭐⭐⭐",
+                "best_for": "Batch processing across many documents, quick summaries, cost-sensitive runs",
+                "recommended": false,
+                "vision": true
+            }
+        }
+    },
+    "Anthropic (Claude)": {
+        "_description": "Anthropic's Claude models excel at nuanced writing and analysis.",
+        "_all_vision": true,
+        "models": {
+            "claude-opus-4-7": {
+                "name": "claude-opus-4-7",
+                "tier": "premium",
+                "speed": "⚡⚡",
+                "cost": "💰💰💰💰💰",
+                "quality": "⭐⭐⭐⭐⭐",
+                "best_for": "Deep analysis of transcripts, nuanced interview summarisation, complex reasoning across long documents",
+                "recommended": false,
+                "vision": true
+            },
+            "claude-sonnet-4-6": {
+                "name": "claude-sonnet-4-6",
+                "tier": "balanced",
+                "speed": "⚡⚡⚡⚡",
+                "cost": "💰💰",
+                "quality": "⭐⭐⭐⭐⭐",
+                "best_for": "Everyday document analysis and summarisation — the right choice for most oral history work",
+                "recommended": true,
+                "vision": true
+            },
+            "claude-haiku-4-5-20251001": {
+                "name": "claude-haiku-4-5-20251001",
+                "tier": "fast",
+                "speed": "⚡⚡⚡⚡⚡",
+                "cost": "💰",
+                "quality": "⭐⭐⭐⭐",
+                "best_for": "Batch processing across many documents, quick summaries, cost-sensitive runs",
+                "recommended": false,
+                "vision": true
+            }
+        }
+    },
+    "Google (Gemini)": {
+        "_description": "Google's Gemini models offer a generous free tier.",
+        "_all_vision": true,
+        "models": {
+            "gemini-3.1-pro-preview": {
+                "name": "gemini-3.1-pro-preview",
+                "tier": "premium",
+                "speed": "⚡⚡⚡",
+                "cost": "💰💰",
+                "quality": "⭐⭐⭐⭐⭐",
+                "best_for": "Deep analysis of transcripts and long documents (preview release — cutting edge)",
+                "recommended": false,
+                "vision": true
+            },
+            "gemini-2.5-flash": {
+                "name": "gemini-2.5-flash",
+                "tier": "balanced",
+                "speed": "⚡⚡⚡⚡⚡",
+                "cost": "Free tier!",
+                "quality": "⭐⭐⭐⭐",
+                "best_for": "Everyday document analysis on the generous free tier",
+                "recommended": true,
+                "vision": true
+            },
+            "gemini-2.5-flash-lite": {
+                "name": "gemini-2.5-flash-lite",
+                "tier": "fast",
+                "speed": "⚡⚡⚡⚡⚡",
+                "cost": "Free tier!",
+                "quality": "⭐⭐⭐",
+                "best_for": "Fastest Gemini option on the free tier — ideal for batch runs and quick summaries",
+                "recommended": false,
+                "vision": true
+            },
+            "gemini-pro-latest": {
+                "name": "gemini-pro-latest",
+                "speed": "⚡⚡⚡⚡⚡",
+                "cost": "Free tier!",
+                "quality": "⭐⭐⭐",
+                "best_for": "Testing new features",
+                "recommended": false,
+                "auto_generated": true,
+                "vision": true
+            },
+            "gemini-flash-latest": {
+                "name": "gemini-flash-latest",
+                "speed": "⚡⚡⚡⚡⚡",
+                "cost": "Free tier!",
+                "quality": "⭐⭐⭐",
+                "best_for": "Testing new features",
+                "recommended": false,
+                "auto_generated": true,
+                "vision": true
+            }
+        }
+    },
+    "xAI (Grok)": {
+        "_description": "xAI's Grok models from Elon Musk's AI company.",
+        "models": {
+            "grok-4": {
+                "name": "grok-4",
+                "tier": "premium",
+                "speed": "⚡⚡",
+                "cost": "💰💰💰",
+                "quality": "⭐⭐⭐⭐⭐",
+                "best_for": "Deep analysis and complex reasoning",
+                "recommended": false,
+                "vision": false
+            },
+            "grok-4-fast": {
+                "name": "grok-4-fast",
+                "tier": "balanced",
+                "speed": "⚡⚡⚡⚡⚡",
+                "cost": "💰",
+                "quality": "⭐⭐⭐⭐",
+                "best_for": "Everyday document analysis and summarisation",
+                "recommended": true,
+                "vision": false
+            }
+        }
+    },
+    "DeepSeek": {
+        "_description": "DeepSeek offers excellent quality at very low cost. V4 models support a 1M-token context window.",
+        "models": {
+            "deepseek-v4-pro": {
+                "name": "deepseek-v4-pro",
+                "tier": "premium",
+                "speed": "⚡⚡",
+                "cost": "💰 (very cheap)",
+                "quality": "⭐⭐⭐⭐⭐",
+                "best_for": "Frontier-tier reasoning and analysis with 1M-token context — exceptional value at this quality",
+                "recommended": false,
+                "vision": false
+            },
+            "deepseek-v4-flash": {
+                "name": "deepseek-v4-flash",
+                "tier": "balanced",
+                "speed": "⚡⚡⚡⚡",
+                "cost": "💰 (very cheap)",
+                "quality": "⭐⭐⭐⭐",
+                "best_for": "Everyday document analysis with 1M-token context — fast and excellent value",
+                "recommended": true,
+                "vision": false
+            }
+        }
+    },
+    "Moonshot (Kimi)": {
+        "_description": "Kimi by Moonshot AI (Beijing). K3 is an open-weight multimodal model with a 1M-token context window — long interviews fit in a single pass. Privacy terms are not recorded in DocAnalyser's endpoint-disclosure table; check Moonshot's own policy before sending identifiable material.",
+        "models": {
+            "kimi-k3": {
+                "name": "kimi-k3",
+                "tier": "premium",
+                "speed": "⚡⚡",
+                "cost": "💰💰💰 ($3 / $15 per 1M)",
+                "quality": "⭐⭐⭐⭐⭐",
+                "context_window": 1048576,
+                "best_for": "Whole-interview analysis in one pass (1M-token context); also handles images for OCR",
+                "recommended": true,
+                "vision": true
+            },
+            "kimi-k2.6": {
+                "name": "kimi-k2.6",
+                "tier": "balanced",
+                "speed": "⚡⚡⚡",
+                "cost": "💰 ($0.95 / $4 per 1M)",
+                "context_window": 262144,
+                "best_for": "Everyday summarising and analysis at about a third of K3's price — text only",
+                "recommended": false,
+                "vision": false
+            }
+        }
+    },
+    "LM Studio (Local)": {
+        "_description": "Run AI models locally on your computer - free and private.\n\nModels shown are those loaded in LM Studio.\nSee 'System Check' in Settings for recommendations.",
+        "_no_table": true,
+        "models": {}
+    },
+    "Ollama (Local)": {
+        "_description": "Run AI models locally with Ollama - free, private, and easy to use.\n\nOllama automatically manages models and runs in the background.\nUse Settings → Local AI Setup to download and manage models.",
+        "_no_table": true,
+        "models": {}
+    },
+    "AgentAUS": {
+        "models": {
+            "agentaus": {
+                "tier": "balanced",
+                "description": "Australian sovereign AI by Trellis Data. Data and models stay in Australia, protected by defence-grade encryption.",
+                "context_window": 32000,
+                "input_price_per_1m": 0.0,
+                "output_price_per_1m": 0.0,
+                "speed": "balanced",
+                "best_for": "Privacy-sensitive and sovereignty-required document analysis"
+            }
+        }
+    }
+}
