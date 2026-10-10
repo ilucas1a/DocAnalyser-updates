@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.8.0",
-  "release_date": "2026-09-23",
+  "latest_version": "1.8.2",
+  "release_date": "2026-10-10",
   "download_url_windows": "",
   "download_url_mac": "",
-  "changelog": "v1.7.1 Beta\n- Cleaner transcript layout for editing: visible [MM:SS] timestamps now appear only at the start of each paragraph. The repeated sentence-level timestamps within a paragraph have been removed, making transcripts much easier to read and edit in Word. Click-to-seek and audio sync are unaffected \u2014 every sentence is still navigable from the Speaker Panel.",
+  "changelog": "v1.8.2 Beta\n- Corrections typed into a document's source view (YouTube, web pages, PDFs, pasted text) are now really saved. Before, they appeared saved but were lost when the document was reopened. A backup is kept (Restore backup), and if edits can't be saved DocAnalyser says so and copies your text to the clipboard.\n- Clarity now uses its own copy of the web engine that draws its window, and the installer blocks that copy from the internet with a firewall rule (Windows asks permission during installation). Nothing else on your computer is affected.\n\nAlso new since 1.8.0 (from 1.8.1):\n- Works alongside Clarity: right-click a transcript in the Documents Library and choose Open in Clarity. Clarity then edits DocAnalyser's own copy, so both programs always show the same text.\n- Safer editing: if a transcript has been changed in another window or in Clarity, DocAnalyser asks before saving over it, and an open window shows the latest version when you come back to it.\n- Interviewee approval: changing the words of an approved interview now means its approval needs renewing, and its review copies are marked superseded. Splitting or joining paragraphs, speakers and timings don't count.\n- Review copies and timestamped exports check again for names the redactions don't cover.\n- Edit in Word notices when the Word copy is out of date and offers a fresh one.\n- Import Documents no longer writes over an existing transcript: Rename keeps both, and Overwrite keeps a backup.\n- Export Selected exports just the documents you've selected.",
   "required": false,
   "min_version": "0.0.0"
 }
